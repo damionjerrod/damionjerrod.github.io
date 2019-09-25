@@ -1,6 +1,17 @@
-.navigation {
-    float: right;
+.navbar {
     display: block;
-    margin: none;
-    padding: 10px;
-}    
+    height: 360px;
+}
+
+.content {
+    display: block;
+    height: 500px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-buttons {
+    float: right;
+}
