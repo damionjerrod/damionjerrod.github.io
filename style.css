@@ -1,6 +1,28 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("theWelcomeHand.jpg");
+    background-position: 50% 50% absolute;
+    background-size: 120%;
+    background-repeat: none;
+}
+
+.seconBody {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodybox {
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar {
     display: block;
-    height: 360px;
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
 }
 
 .content {
@@ -10,8 +32,32 @@
 
 .logo {
     float: left;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 26px 2px 2px 40px;
 }
 
 .nav-buttons {
     float: right;
+    margin: 35px 40px 2px 2px;
+}
+
+.call-to-action {
+    margin: 500px 2px 2px 500px;
+}
+
+#contact {
+    margin: 2px 25px 2px 2px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: helvetica, arial, sans-serif;
+}
+
+p {
+    color: black;
+    text-decoration: none;
+    font-family: helvetica, arial, sans-serif;
 }
