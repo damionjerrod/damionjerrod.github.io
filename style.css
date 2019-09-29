@@ -84,9 +84,16 @@ section {
     width: 63%;
 }
 
+/*Selector Exercise*/
 aside {
     float: right;
     margin: 0 1.5%;
     width: 30%;
     display: inline-block;
+    position: absolute;
+    offset: right;
+}
+
+#title {
+    z-index: 5;
 }
