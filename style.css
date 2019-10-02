@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .body, html {
     height: 100%;
     margin: 0%;
@@ -110,6 +114,30 @@
     background-size: cover;
 }
 
-.content-section {
+.actual-content, #section1-img {
+    display: inline-block;
+}
 
+.section1-lefthand {
+    float: left;
+}
+
+.section1-righthand {
+    float: right;
+    width: 800px;
+    margin: 10px 10px 20px 40px;
+}
+
+.content-container1 {
+    padding: 13% 10% 25% 10%;
+}
+
+#section1-title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+#section1-paragraph {
+    font-family: "roboto";
+    font-size: 20px;
 }
